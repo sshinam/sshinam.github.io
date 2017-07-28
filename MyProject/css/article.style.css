@@ -1,0 +1,146 @@
+
+/* =====================
+  setting
+===================== */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* =====================
+  Header
+===================== */
+
+/*.container{
+	
+}*/
+
+header { 
+	width: 100%;
+	height: 70px;
+	background-color:grey;
+}
+
+.container1 {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+
+.logo{
+	width: 150px;
+	height: auto;
+	float: left;
+	display: block;
+}
+
+.nav{
+	float: right;
+	width: 650px;
+	height:  70px;
+	background-color: orange;
+}
+
+.nav-list{
+	float: left;
+	width: 120px;
+	line-height: 70px;
+	color: #FAFAFA;
+	text-align: right;
+	list-style: none;
+}
+
+
+
+/* =====================
+  content
+===================== */
+
+.fa{
+	font-size:18px;
+	font-color:#ccc;
+
+}
+.portfolio{
+	background-color: #ECEFF1;
+}
+
+.heading{
+	padding-top: 90px;
+	text-align: center;
+}
+
+.heading::after{
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.heading-text{
+	padding-top: 30px;
+	text-align: center;
+}
+
+.img-boxes{
+	width: 930px;
+	margin:0 auto;
+	padding:30px 0 90px;
+}
+.img-box{
+	width: 300px;
+	height: 300px;
+	float: left;
+	background-size: cover;
+	background-position: center;
+	margin: 5px;
+}
+
+
+.img1{
+    background-image: url('../img/sketch.jpg');
+     }	
+
+.img2{
+    background-image: url('../img/websuku.png');
+}	
+
+.img3{
+    background-image: url('../img/write.jpg');
+ }	
+
+.img4{
+    background-image: url('../img/webcamp.png');
+ }	
+
+.img5{
+    background-image: url('../img/talk.jpg');
+ }	
+
+
+.img6{
+    background-image: url('../img/webcamp-mother.png');
+ }	
+
+/* =====================
+  Feature
+===================== */
+
+.strength{
+	width: 320px;
+	text-align: center;
+}
+
+.strength-text{
+	text-align: left;
+}

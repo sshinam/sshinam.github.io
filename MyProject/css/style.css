@@ -1,0 +1,372 @@
+
+/* =====================
+  setting
+===================== */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Droid Sans Mono', monospace, "Hiragino Kaku Gothic ProN","メイリオ", sans-serif, 'Lato', sans-serif;
+}
+
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* =====================
+  Header
+===================== */
+
+
+header { 
+	width: 100%;
+    height: 550px;
+    margin: 0 auto;
+    color: white;
+    background: fixed;
+    background-image:url('../img/hand.jpg');
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.header-box {
+	width: 100%;
+    height: 83px;
+	margin: 0 auto;
+	background:-webkit-linear-gradient(top,rgba(0,101,203,0.5) 10%, transparent 100%);
+}
+
+
+.header-container{
+	width: 1024px;
+	height: 83px;
+	margin: 0 auto;
+}
+
+.logo{
+	width: auto;
+	height: 83px;
+	float:left;
+
+}
+
+.nav-sns{
+	width: auto;
+	height: 83px;
+	float: right;
+
+}
+
+.sns-box{
+	width: auto;
+	float:right;
+	height: 40px;
+	display: block;
+	font-size: 20px;
+}
+
+.nav{
+	width: auto;
+	height: 40px;
+	float:right;
+
+}
+
+.nav-list{
+	float: left;
+	width: auto;
+	margin-left:40px; 
+	color: #FAFAFA;
+	text-align: right;
+	vertical-align: bottom;
+	list-style: none;
+}
+
+
+a {
+text-decoration: none;
+}
+
+a.nav-link:link { color: white; } /*未訪問のリンク*/
+a.nav-link:visited { color: white; } /*訪問済みのリンク*/
+a.nav-link:hover { color:#365899; } /* ポイント時のリンク*/
+a.nav-link:active { color: #365899;} /* 選択中のリンク*/
+
+.title-box {
+	border-radius: 60%;
+	width: 1024px;
+    height: 150px;
+    margin: 150px auto;
+    color:#4682b4;/*#dcdcdc*/
+	/*background-color: rgba(0,101,203,0.1);*/
+	/*background:-webkit-linear-gradient(center,rgba(0,101,203,0.5) 5%, transparent 100%)*/
+    }
+
+.blog-title {
+	line-height: 80px;
+	text-align: center;
+	font-size: 70px;
+	font: "Hiragino Kaku Gothic ProN";
+	display: block;
+}
+
+.subtitle{
+	text-align: center;
+	font-size: 35px;
+	display: block;
+}
+
+
+/* =====================
+  Content
+===================== */
+#content{
+width: 1024px;
+height:auto;
+margin:30px auto;
+}
+
+/* =====================
+  Main
+===================== */
+
+
+#main{
+	float:left;
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.post-box{
+	width: auto;
+	height: 150px;
+	margin: 0 20px 20px;
+	padding-right: 10px;
+	/*position: relative;*/
+
+	/*box-shadow: 0 2px 5px rgba(0, 0, 0, .13);*/
+	
+}
+
+
+
+
+/*
+.category-tag{
+	}*/
+
+a.entry-link:link { color: black; } /*未訪問のリンク*/
+a.entry-link:visited { color: black; } /*訪問済みのリンク*/
+a.entry-link:hover { color: #a9a9a9; } /* ポイント時のリンク*/
+a.entry-link:active { color: #a9a9a9;} /* 選択中のリンク*/
+
+
+.entry-img{
+	background-size: cover;
+	background-position: center;
+	float: left;
+    width: 30%;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    display: block;
+    /*-webkit-transition:0.3s ease-in-out;
+    transition: 0.3s ease-in-out;*/
+    /*position: relative;*/
+}
+
+/*.post-tag{
+	width:60px; 
+	height:60px;
+	border-radius:50%;
+	background-color: skyblue;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+}*/
+
+.entry-img:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=60);
+	background-color: white;
+	display: block;
+}
+
+.entry-title:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=60);
+	display: block;
+
+}
+
+.entry-4{
+background-image: url('../img/frank-mckenna-141313.jpg');
+}
+
+.entry-3{
+background-image: url('../img/fcd0bbc1f8758d81859d09a03291f918_l-1024x768.jpg');
+}
+
+.entry-2{
+background-image: url('../img/love.jpeg');
+}
+
+
+.entry-1{
+background-image: url('../img/iphone7hello_TP_V.jpg');
+}
+
+
+.entry-catch{
+	height: 65px;
+	width: auto;
+	overflow:hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	font-family: arial;
+	margin: 10px 0 10px 0; 
+	font-size:15px;
+}
+
+.entry-meta {
+	font-size: 14px;
+	color: #CCC;
+	font-family: arial;
+
+}
+
+.fa-folder-open{
+	margin-left:10px;
+
+
+}
+
+/* =====================
+  Sidebar
+===================== */
+
+
+#sidebar{
+	width: 25%;
+	float: right;
+	margin: 0 auto;
+	font-family: 'Philosopher', sans-serif;
+	color:#555;
+}
+
+.sidebar-container{
+	padding: 5px;
+	line-height: 140%;
+
+}
+
+.about{
+	margin-bottom: 30px;
+
+	}
+
+.sidebar-title{
+	font-size: 150%;
+	padding-bottom: 2px;
+	border-bottom: solid 0.7px rgb(221, 221, 221);
+	margin-bottom:10px;
+}
+
+
+.japanese {
+
+	font-size: 75%;
+	font-family: arial;
+	letter-spacing: 0.1em;
+}
+
+.english{
+	font-size: 80%;
+	font-family: arial;
+	letter-spacing: 0.1em;
+
+}
+
+.search-box{
+	width: 100%;
+	height: 40px;
+	padding: 0 0 0 10px;
+	background-color: #f9f9f9;
+	border: solid 0.7px #eaeaea;
+	color: #777;
+	line-height: 40px;
+	display: inline-block;
+	margin-bottom: 30px;
+	
+
+}
+.search-word {
+	float:left;
+	width: 80%;
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	display: inline-block;
+	
+}
+
+.fa-search{
+	float:right;
+	width: 10%;
+	height: 40px;
+	line-height: 40px;
+}
+
+
+ul.popular {
+  padding: 0.5em 1em 0.5em 2.3em;
+  position: relative;
+}
+
+ul li.popular-list {
+  line-height: 1.5;
+  padding: 0.3em 0;
+  list-style-type: none;/*ポチ消す*/
+  font-size: 75%;
+}
+
+ul li.popular-list:before {/*疑似要素*/
+  font-family: FontAwesome;
+  font-size: 40%;
+  content: "\f00c";
+  position: absolute;
+  left : 0.2em; /*左端からのアイコンまで*/
+}
+
+.popular-link{
+	color: #555;
+}
+
+ul li.popular-list:link > .popular-link { color:#555; } /*未訪問のリンク*/
+ul li.popular-list:visited > .popular-link { color:#555; } /*訪問済みのリンク*/
+ul li.popular-list:hover > .popular-link { color: #c0c0c0; } /* ポイント時のリンク*/
+ul li.popular-list:hover { color: #c0c0c0; }
+ul li.popular-list::active > .popular-link { color: #c0c0c0;} /* 選択中のリンク*/
+
+
+/* =====================
+  footer
+===================== */
+
+#footer{
+	width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    color: #555;
+    background-color: #e5e5e5;
+    text-align: center;
+    line-height: 60px;
+
+}
